@@ -15,8 +15,8 @@ function Navbar () {
 
     <nav>
       <label htmlFor="search">
-        <Link to="/">Home</Link>
-        <p>Search:</p>
+        <Link to="/"><p className="home-link">Home</p></Link>
+        <p className="searcher">Search:</p>
          <input type="text" placeholder="search" id="search" value={search} onChange={(e) => setSearch(e.target.value)} />
       </label>
   </nav>

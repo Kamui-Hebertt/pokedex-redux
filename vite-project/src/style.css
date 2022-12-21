@@ -18,7 +18,7 @@ align-items: center;
 
 }
 
-nav  p {
+.searcher {
   font-family: 'Courier New', Courier, monospace;
   margin-left: 74.8vw;
   
@@ -33,7 +33,7 @@ nav  p {
 margin-left: 80vw;
 border-radius: 50px;
 height: 20px;
-margin-bottom: 36px;
+margin-bottom: 15px;
 border: 1px solid black;
 }
 
@@ -60,7 +60,7 @@ border: 1px solid black;
   color: black;
   border-radius: 15px;
   background-color: transparent;
-  border: 1px solid rgb(9, 129, 129);
+  border: 1px solid rgb(172, 38, 165);
  
   
 }
@@ -76,4 +76,23 @@ border: 1px solid black;
 h2 {
  display: flex;
  justify-content: center;
+}
+
+.home-link  {
+  position: absolute;
+ border: 1px solid rgb(194, 176, 176);
+ margin-right: 100vw;
+ background-color:rgb(197, 230, 236) ;
+ width: 5vw;
+ height: 4vh;display: flex;
+ justify-content: center;
+ align-items: center;
+ color: black;
+ font-family: 'Courier New', Courier, monospace;
+
+ border-radius: 20px;
+}
+
+.home-link:hover{
+  opacity: 0.8;
 }
