@@ -40,12 +40,14 @@ return allresponse
 return(
   <>
   <Navbar />
-  <div>
+  <h2>Pokedex</h2>
+  <div className="all">
   
 
   {filtered.map((e,i) => (
      
-     <><p key={i}>
+     <div className="theCard">
+      <p className="pkmName" key={i}>
       {e.data.name}</p>
         <img src={e.data.sprites.front_default} alt={e.data.name} />
         <details>
@@ -53,13 +55,9 @@ return(
         <h4>Habilities</h4>
           <p>{e.data.abilities[0].ability.name}</p>
           <p>{e.data.abilities[1]?.ability.name}</p>
-          
-          
-         
-          
         </details>
         
-     </>
+     </div>
   ))}
 
   </div>

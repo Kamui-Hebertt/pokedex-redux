@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 import { searchAction } from "../app/reduce/Slice";
 
 
@@ -14,8 +15,9 @@ function Navbar () {
 
     <nav>
       <label htmlFor="search">
-        Search:
-         <input type="text" id="search" value={search} onChange={(e) => setSearch(e.target.value)} />
+        <Link to="/">Home</Link>
+        <p>Search:</p>
+         <input type="text" placeholder="search" id="search" value={search} onChange={(e) => setSearch(e.target.value)} />
       </label>
   </nav>
   )
