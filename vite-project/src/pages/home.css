@@ -1,0 +1,30 @@
+details {
+
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  width: 5vw;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+ margin-bottom: 50px;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+ 
+  }
+
+.pkmName {
+  font-family: 'Courier New', Courier, monospace;
+  
+  margin-bottom: -5px;
+}
