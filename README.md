@@ -9,8 +9,8 @@ details
 
 
 💻 Technologies used:
-React
-Redux-tolkit
+React,
+Redux-tolkit,
 CSS
 
 
@@ -29,6 +29,6 @@ detalhes
 
 
 💻 Tecnologias utilizadas:
-React
-redux-tolkit
+React,
+redux-tolkit,
 CSS
