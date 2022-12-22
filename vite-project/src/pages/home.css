@@ -5,7 +5,7 @@ details {
   width: 5vw;
   cursor: pointer;
   font-family: 'Courier New', Courier, monospace;
-
+font-size: small;
 }
 
 summary {
@@ -26,5 +26,5 @@ details[open] summary {
 .pkmName {
   font-family: 'Courier New', Courier, monospace;
   
-  margin-bottom: -5px;
+  margin-bottom: -20px;
 }
