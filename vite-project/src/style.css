@@ -4,6 +4,8 @@ body {
   color: white;
   margin: 0;
   font-family: "rubik";
+  margin-bottom: 10vh;
+  
 }
 
 nav { 
@@ -46,6 +48,7 @@ border: 1px solid black;
   
   justify-content: center;
   gap: 20px;
+  margin-top: 4vh;
   
 }
 
@@ -65,12 +68,13 @@ border: 1px solid black;
   
 }
 
-.theCard::after{
-
+.pkName::after{
+ display: none;
 }
 
 .theCard img {
   width: 15vw;
+  margin-bottom:  -10px;
 }
 
 h2 {
