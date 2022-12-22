@@ -1,5 +1,5 @@
 🚀 About the project
-This is a website that works like a pokedex, it displays the following information about 50 different Pokémon:
+This is a website that works like a pokedex, it displays the following information about 50 different Pokemon:
 
 Image,
 Name,
